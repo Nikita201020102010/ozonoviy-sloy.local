@@ -2,7 +2,6 @@
 require 'config/db.php';
 require 'includes/header.php';
 
-// Запрашиваем все товары из базы
 $query = "SELECT * FROM products";
 $result = mysqli_query($conn, $query);
 ?>
